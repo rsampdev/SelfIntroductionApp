@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		337CBCF91D7F471B00451552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CBCF81D7F471B00451552 /* AppDelegate.swift */; };
-		337CBCFB1D7F471B00451552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CBCFA1D7F471B00451552 /* ViewController.swift */; };
+		337CBCFB1D7F471B00451552 /* EntryPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CBCFA1D7F471B00451552 /* EntryPointViewController.swift */; };
 		337CBCFE1D7F471B00451552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337CBCFC1D7F471B00451552 /* Main.storyboard */; };
 		337CBD001D7F471B00451552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337CBCFF1D7F471B00451552 /* Assets.xcassets */; };
 		337CBD031D7F471B00451552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337CBD011D7F471B00451552 /* LaunchScreen.storyboard */; };
 		337CBD0E1D7F471B00451552 /* SelfIntroductionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CBD0D1D7F471B00451552 /* SelfIntroductionTests.swift */; };
 		337CBD191D7F471B00451552 /* SelfIntroductionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CBD181D7F471B00451552 /* SelfIntroductionUITests.swift */; };
+		33BB3B7B1D7F646000901808 /* MadLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB3B7A1D7F646000901808 /* MadLibViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		337CBCF51D7F471B00451552 /* SelfIntroduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfIntroduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		337CBCF81D7F471B00451552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		337CBCFA1D7F471B00451552 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		337CBCFA1D7F471B00451552 /* EntryPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPointViewController.swift; sourceTree = "<group>"; };
 		337CBCFD1D7F471B00451552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		337CBCFF1D7F471B00451552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		337CBD021D7F471B00451552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		337CBD141D7F471B00451552 /* SelfIntroductionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfIntroductionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		337CBD181D7F471B00451552 /* SelfIntroductionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroductionUITests.swift; sourceTree = "<group>"; };
 		337CBD1A1D7F471B00451552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BB3B7A1D7F646000901808 /* MadLibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadLibViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				337CBCF81D7F471B00451552 /* AppDelegate.swift */,
-				337CBCFA1D7F471B00451552 /* ViewController.swift */,
+				337CBCFA1D7F471B00451552 /* EntryPointViewController.swift */,
 				337CBCFC1D7F471B00451552 /* Main.storyboard */,
 				337CBCFF1D7F471B00451552 /* Assets.xcassets */,
 				337CBD011D7F471B00451552 /* LaunchScreen.storyboard */,
 				337CBD041D7F471B00451552 /* Info.plist */,
+				33BB3B7A1D7F646000901808 /* MadLibViewController.swift */,
 			);
 			path = SelfIntroduction;
 			sourceTree = "<group>";
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337CBCFB1D7F471B00451552 /* ViewController.swift in Sources */,
+				337CBCFB1D7F471B00451552 /* EntryPointViewController.swift in Sources */,
 				337CBCF91D7F471B00451552 /* AppDelegate.swift in Sources */,
+				33BB3B7B1D7F646000901808 /* MadLibViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				337CBD1F1D7F471B00451552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		337CBD201D7F471B00451552 /* Build configuration list for PBXNativeTarget "SelfIntroductionTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				337CBD221D7F471B00451552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		337CBD231D7F471B00451552 /* Build configuration list for PBXNativeTarget "SelfIntroductionUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				337CBD251D7F471B00451552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
