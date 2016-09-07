@@ -15,6 +15,7 @@
 		337CBD0E1D7F471B00451552 /* SelfIntroductionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CBD0D1D7F471B00451552 /* SelfIntroductionTests.swift */; };
 		337CBD191D7F471B00451552 /* SelfIntroductionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CBD181D7F471B00451552 /* SelfIntroductionUITests.swift */; };
 		33BB3B7B1D7F646000901808 /* MadLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB3B7A1D7F646000901808 /* MadLibViewController.swift */; };
+		33BB3B7D1D7FA4D100901808 /* MadLibStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB3B7C1D7FA4D100901808 /* MadLibStoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		337CBD181D7F471B00451552 /* SelfIntroductionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroductionUITests.swift; sourceTree = "<group>"; };
 		337CBD1A1D7F471B00451552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33BB3B7A1D7F646000901808 /* MadLibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadLibViewController.swift; sourceTree = "<group>"; };
+		33BB3B7C1D7FA4D100901808 /* MadLibStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadLibStoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				337CBD011D7F471B00451552 /* LaunchScreen.storyboard */,
 				337CBD041D7F471B00451552 /* Info.plist */,
 				33BB3B7A1D7F646000901808 /* MadLibViewController.swift */,
+				33BB3B7C1D7FA4D100901808 /* MadLibStoryViewController.swift */,
 			);
 			path = SelfIntroduction;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				337CBCFB1D7F471B00451552 /* EntryPointViewController.swift in Sources */,
 				337CBCF91D7F471B00451552 /* AppDelegate.swift in Sources */,
 				33BB3B7B1D7F646000901808 /* MadLibViewController.swift in Sources */,
+				33BB3B7D1D7FA4D100901808 /* MadLibStoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
